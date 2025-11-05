@@ -1,6 +1,6 @@
 install yolov7 and v5 repo 
 change test.py in yolov5 folder.
-Once dataset is loaded change and add the correct location in the data.yaml
+Once dataset is loaded change and add the correct location in the data.yaml /
 ---  data.yaml file ----------
 names:
 - healthy_cell
