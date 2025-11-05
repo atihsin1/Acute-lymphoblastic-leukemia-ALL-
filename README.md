@@ -1,24 +1,24 @@
-install yolov7 and v5 repo 
-change test.py in yolov5 folder.
-Once dataset is loaded change and add the correct location in the data.yaml /
----  data.yaml file ----------
-names:
-- healthy_cell
-- leukemia_cell
-nc: 2
-roboflow:
-  license: CC BY 4.0
-  project: my-proroject
-  url: https://universe.roboflow.com/joel-kiprono-saat/my-proroject/dataset/1
-  version: 1
-  workspace: joel-kiprono-saat
-test: /content/drive/MyDrive/Project/My-proroject-1/test/images    #give proper path to your data set
-train: /content/drive/MyDrive/Project/My-proroject-1/train/images
-val: /content/drive/MyDrive/Project/My-proroject-1/valid/images
+install yolov7 and v5 repo  <br>
+change test.py in yolov5 folder. <br>
+Once dataset is loaded change and add the correct location in the data.yaml <br>
+---  data.yaml file ---------- <br>
+names:  <br>
+- healthy_cell  <br>
+- leukemia_cell  <br>
+nc: 2  <br>
+roboflow:  <br>
+  license: CC BY 4.0 <br>
+  project: my-proroject  <br>
+  url: https://universe.roboflow.com/joel-kiprono-saat/my-proroject/dataset/1  <br>
+  version: 1  <br>
+  workspace: joel-kiprono-saat  <br>
+test: /content/drive/MyDrive/Project/My-proroject-1/test/images    #give proper path to your data set  <br>
+train: /content/drive/MyDrive/Project/My-proroject-1/train/images  <br>
+val: /content/drive/MyDrive/Project/My-proroject-1/valid/images   <br>
 
 ----------------------------
-Architecture for SENet yolov5s.yaml
-add senetyaml file in yolov5 -> models
+Architecture for SENet yolov5s.yaml  <br>
+add senetyaml file in yolov5 -> models  <br>
 
 
 # YOLOv5 v6.0 backbone
