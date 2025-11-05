@@ -1,7 +1,7 @@
 install yolov7 and v5 repo 
 change test.py in yolov5 folder.
 Once dataset is loaded change and add the correct location in the data.yaml
-/*   data.yaml file
+---  data.yaml file ----------
 names:
 - healthy_cell
 - leukemia_cell
@@ -16,9 +16,11 @@ test: /content/drive/MyDrive/Project/My-proroject-1/test/images    #give proper 
 train: /content/drive/MyDrive/Project/My-proroject-1/train/images
 val: /content/drive/MyDrive/Project/My-proroject-1/valid/images
 
-*/
-
+----------------------------
 Architecture for SENet yolov5s.yaml
+add senetyaml file in yolov5 -> models
+
+
 # YOLOv5 v6.0 backbone
 backbone:
   # [from, number, module, args]
